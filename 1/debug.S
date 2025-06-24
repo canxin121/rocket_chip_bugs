@@ -517,6 +517,7 @@ _user_code:
 
     li x27, 0x7FFFFFFF
     li x10, 100
+    # This line will only trigger an exception in spike, but not in rocket
     sb x10, -1717(x27)
     DUMP_ALL_REGS framework_temp_save_area
     # This line will only trigger an exception in spike, but not in rocket
