@@ -1,0 +1,1290 @@
+{
+  "emulator_type": "Rocket",
+  "raw_data_length": 3648,
+  "output_items": [
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 0
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147492960,
+          "mtval": 4,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4,
+          "mhartid": 0
+        },
+        "position": 0
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 80
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 5,
+          "mepc": 2147492964,
+          "mtval": 4,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4,
+          "mhartid": 0
+        },
+        "position": 80
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 160
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147492968,
+          "mtval": 4,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4,
+          "mhartid": 0
+        },
+        "position": 160
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 280297096482816,
+        "marker_type": "RegistersIntAndFloat",
+        "position": 240
+      }
+    },
+    {
+      "RegisterData": {
+        "marker_type": "RegistersIntAndFloat",
+        "registers": [
+          0,
+          0,
+          0,
+          3735928559,
+          0,
+          305441741,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          4,
+          9223372079804473472,
+          9223372036864479661,
+          0,
+          1092,
+          0,
+          2147491840,
+          0,
+          4,
+          2147492972,
+          0,
+          0,
+          64,
+          180294,
+          100980,
+          0,
+          1,
+          538447876,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "position": 240
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 912
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147493682,
+          "mtval": 5,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 5,
+          "mhartid": 0
+        },
+        "position": 912
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 992
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 5,
+          "mepc": 2147493686,
+          "mtval": 5,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 5,
+          "mhartid": 0
+        },
+        "position": 992
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 1072
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147493690,
+          "mtval": 5,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 5,
+          "mhartid": 0
+        },
+        "position": 1072
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 280297096482816,
+        "marker_type": "RegistersIntAndFloat",
+        "position": 1152
+      }
+    },
+    {
+      "RegisterData": {
+        "marker_type": "RegistersIntAndFloat",
+        "registers": [
+          0,
+          0,
+          0,
+          3735928559,
+          0,
+          305441741,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          5,
+          9223372079804473472,
+          9223372036864479661,
+          0,
+          1092,
+          0,
+          2147491840,
+          0,
+          5,
+          2147493694,
+          0,
+          0,
+          64,
+          430605,
+          238482,
+          0,
+          1,
+          538447876,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "position": 1152
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 1824
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147494410,
+          "mtval": 4294967265,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4294967265,
+          "mhartid": 0
+        },
+        "position": 1824
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 1904
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 5,
+          "mepc": 2147494414,
+          "mtval": 4294967265,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4294967265,
+          "mhartid": 0
+        },
+        "position": 1904
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 1984
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147494418,
+          "mtval": 4294967265,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4294967265,
+          "mhartid": 0
+        },
+        "position": 1984
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 280297096482816,
+        "marker_type": "RegistersIntAndFloat",
+        "position": 2064
+      }
+    },
+    {
+      "RegisterData": {
+        "marker_type": "RegistersIntAndFloat",
+        "registers": [
+          0,
+          0,
+          0,
+          3735928559,
+          0,
+          305441741,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4294967265,
+          4294967265,
+          9223372079804473472,
+          9223372036864479661,
+          0,
+          1092,
+          0,
+          2147491840,
+          0,
+          4294967265,
+          2147494422,
+          0,
+          0,
+          64,
+          680939,
+          375901,
+          0,
+          1,
+          538447876,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "position": 2064
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 2736
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147495138,
+          "mtval": 4294967276,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4294967276,
+          "mhartid": 0
+        },
+        "position": 2736
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 2816
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 5,
+          "mepc": 2147495142,
+          "mtval": 4294967276,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4294967276,
+          "mhartid": 0
+        },
+        "position": 2816
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 2896
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147495146,
+          "mtval": 4294967276,
+          "mie": 0,
+          "mip": 64,
+          "mtvec": 2147491840,
+          "mscratch": 4294967276,
+          "mhartid": 0
+        },
+        "position": 2896
+      }
+    },
+    {
+      "MagicMarker": {
+        "marker": 280297096482816,
+        "marker_type": "RegistersIntAndFloat",
+        "position": 2976
+      }
+    },
+    {
+      "RegisterData": {
+        "marker_type": "RegistersIntAndFloat",
+        "registers": [
+          0,
+          0,
+          0,
+          3735928559,
+          0,
+          305441741,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4294967276,
+          4294967276,
+          9223372079804473472,
+          9223372036864479661,
+          0,
+          1092,
+          0,
+          2147491840,
+          0,
+          4294967276,
+          2147495150,
+          0,
+          0,
+          64,
+          931302,
+          513353,
+          0,
+          1,
+          538447876,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "position": 2976
+      }
+    }
+  ],
+  "register_dumps": [
+    {
+      "dump_type": "RegistersIntAndFloat",
+      "int_registers": [
+        0,
+        0,
+        0,
+        3735928559,
+        0,
+        305441741,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "core_csrs": {
+        "mstatus": 9223372079804473472,
+        "misa": 9223372036864479661,
+        "medeleg": 0,
+        "mideleg": 1092,
+        "mie": 0,
+        "mtvec": 2147491840,
+        "mcounteren": 0,
+        "mscratch": 4,
+        "mepc": 2147492972,
+        "mcause": 0,
+        "mtval": 0,
+        "mip": 64,
+        "mcycle": 180294,
+        "minstret": 100980,
+        "mvendorid": 0,
+        "marchid": 1,
+        "mimpid": 538447876,
+        "mhartid": 0
+      },
+      "float_registers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "float_csr": 0,
+      "position": 240
+    },
+    {
+      "dump_type": "RegistersIntAndFloat",
+      "int_registers": [
+        0,
+        0,
+        0,
+        3735928559,
+        0,
+        305441741,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        5
+      ],
+      "core_csrs": {
+        "mstatus": 9223372079804473472,
+        "misa": 9223372036864479661,
+        "medeleg": 0,
+        "mideleg": 1092,
+        "mie": 0,
+        "mtvec": 2147491840,
+        "mcounteren": 0,
+        "mscratch": 5,
+        "mepc": 2147493694,
+        "mcause": 0,
+        "mtval": 0,
+        "mip": 64,
+        "mcycle": 430605,
+        "minstret": 238482,
+        "mvendorid": 0,
+        "marchid": 1,
+        "mimpid": 538447876,
+        "mhartid": 0
+      },
+      "float_registers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "float_csr": 0,
+      "position": 1152
+    },
+    {
+      "dump_type": "RegistersIntAndFloat",
+      "int_registers": [
+        0,
+        0,
+        0,
+        3735928559,
+        0,
+        305441741,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4294967265,
+        4294967265
+      ],
+      "core_csrs": {
+        "mstatus": 9223372079804473472,
+        "misa": 9223372036864479661,
+        "medeleg": 0,
+        "mideleg": 1092,
+        "mie": 0,
+        "mtvec": 2147491840,
+        "mcounteren": 0,
+        "mscratch": 4294967265,
+        "mepc": 2147494422,
+        "mcause": 0,
+        "mtval": 0,
+        "mip": 64,
+        "mcycle": 680939,
+        "minstret": 375901,
+        "mvendorid": 0,
+        "marchid": 1,
+        "mimpid": 538447876,
+        "mhartid": 0
+      },
+      "float_registers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "float_csr": 0,
+      "position": 2064
+    },
+    {
+      "dump_type": "RegistersIntAndFloat",
+      "int_registers": [
+        0,
+        0,
+        0,
+        3735928559,
+        0,
+        305441741,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4294967276,
+        4294967276
+      ],
+      "core_csrs": {
+        "mstatus": 9223372079804473472,
+        "misa": 9223372036864479661,
+        "medeleg": 0,
+        "mideleg": 1092,
+        "mie": 0,
+        "mtvec": 2147491840,
+        "mcounteren": 0,
+        "mscratch": 4294967276,
+        "mepc": 2147495150,
+        "mcause": 0,
+        "mtval": 0,
+        "mip": 64,
+        "mcycle": 931302,
+        "minstret": 513353,
+        "mvendorid": 0,
+        "marchid": 1,
+        "mimpid": 538447876,
+        "mhartid": 0
+      },
+      "float_registers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "float_csr": 0,
+      "position": 2976
+    }
+  ],
+  "exception_dumps": [
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147492960,
+        "mtval": 4,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4,
+        "mhartid": 0
+      },
+      "position": 0,
+      "inst_trace": {
+        "pc": 2147492960,
+        "disassembly": "sw t0,0(t6)",
+        "machine_code": "005fa023",
+        "original_instruction": "sw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 5,
+        "mepc": 2147492964,
+        "mtval": 4,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4,
+        "mhartid": 0
+      },
+      "position": 80,
+      "inst_trace": {
+        "pc": 2147492964,
+        "disassembly": "lw t0,0(t6)",
+        "machine_code": "000fa283",
+        "original_instruction": "lw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147492968,
+        "mtval": 4,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4,
+        "mhartid": 0
+      },
+      "position": 160,
+      "inst_trace": {
+        "pc": 2147492968,
+        "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
+        "machine_code": "269fa1af",
+        "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147493682,
+        "mtval": 5,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 5,
+        "mhartid": 0
+      },
+      "position": 912,
+      "inst_trace": {
+        "pc": 2147493682,
+        "disassembly": "sw t0,0(t6)",
+        "machine_code": "005fa023",
+        "original_instruction": "sw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 5,
+        "mepc": 2147493686,
+        "mtval": 5,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 5,
+        "mhartid": 0
+      },
+      "position": 992,
+      "inst_trace": {
+        "pc": 2147493686,
+        "disassembly": "lw t0,0(t6)",
+        "machine_code": "000fa283",
+        "original_instruction": "lw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147493690,
+        "mtval": 5,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 5,
+        "mhartid": 0
+      },
+      "position": 1072,
+      "inst_trace": {
+        "pc": 2147493690,
+        "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
+        "machine_code": "269fa1af",
+        "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147494410,
+        "mtval": 4294967265,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4294967265,
+        "mhartid": 0
+      },
+      "position": 1824,
+      "inst_trace": {
+        "pc": 2147494410,
+        "disassembly": "sw t0,0(t6)",
+        "machine_code": "005fa023",
+        "original_instruction": "sw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 5,
+        "mepc": 2147494414,
+        "mtval": 4294967265,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4294967265,
+        "mhartid": 0
+      },
+      "position": 1904,
+      "inst_trace": {
+        "pc": 2147494414,
+        "disassembly": "lw t0,0(t6)",
+        "machine_code": "000fa283",
+        "original_instruction": "lw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147494418,
+        "mtval": 4294967265,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4294967265,
+        "mhartid": 0
+      },
+      "position": 1984,
+      "inst_trace": {
+        "pc": 2147494418,
+        "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
+        "machine_code": "269fa1af",
+        "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147495138,
+        "mtval": 4294967276,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4294967276,
+        "mhartid": 0
+      },
+      "position": 2736,
+      "inst_trace": {
+        "pc": 2147495138,
+        "disassembly": "sw t0,0(t6)",
+        "machine_code": "005fa023",
+        "original_instruction": "sw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 5,
+        "mepc": 2147495142,
+        "mtval": 4294967276,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4294967276,
+        "mhartid": 0
+      },
+      "position": 2816,
+      "inst_trace": {
+        "pc": 2147495142,
+        "disassembly": "lw t0,0(t6)",
+        "machine_code": "000fa283",
+        "original_instruction": "lw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147495146,
+        "mtval": 4294967276,
+        "mie": 0,
+        "mip": 64,
+        "mtvec": 2147491840,
+        "mscratch": 4294967276,
+        "mhartid": 0
+      },
+      "position": 2896,
+      "inst_trace": {
+        "pc": 2147495146,
+        "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
+        "machine_code": "269fa1af",
+        "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
+      }
+    }
+  ]
+}
