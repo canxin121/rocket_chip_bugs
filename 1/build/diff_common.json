@@ -1,0 +1,556 @@
+{
+  "sim1_emulator_type": "Spike",
+  "sim2_emulator_type": "Rocket",
+  "output_items_status": "Spike has 20 items, Rocket has 16 items",
+  "register_dumps_count_changed": null,
+  "differing_register_dumps": [
+    [
+      0,
+      {
+        "emulator_type1": "Spike",
+        "emulator_type2": "Rocket",
+        "int_registers_diff": [],
+        "core_csrs_diff": [
+          [
+            "misa",
+            9223372036856091055,
+            9223372036864479661
+          ],
+          [
+            "mideleg",
+            5188,
+            1092
+          ],
+          [
+            "mip",
+            128,
+            0
+          ],
+          [
+            "mcycle",
+            235,
+            1007
+          ],
+          [
+            "marchid",
+            5,
+            1
+          ],
+          [
+            "mimpid",
+            0,
+            538447876
+          ]
+        ],
+        "float_registers_status_changed": null,
+        "float_registers_diff": [],
+        "float_csr_status_changed": null,
+        "float_csr_diff": null
+      }
+    ],
+    [
+      1,
+      {
+        "emulator_type1": "Spike",
+        "emulator_type2": "Rocket",
+        "int_registers_diff": [],
+        "core_csrs_diff": [
+          [
+            "misa",
+            9223372036856091055,
+            9223372036864479661
+          ],
+          [
+            "mideleg",
+            5188,
+            1092
+          ],
+          [
+            "mip",
+            128,
+            0
+          ],
+          [
+            "mcycle",
+            50164,
+            311591
+          ],
+          [
+            "minstret",
+            50165,
+            171004
+          ],
+          [
+            "marchid",
+            5,
+            1
+          ],
+          [
+            "mimpid",
+            0,
+            538447876
+          ]
+        ],
+        "float_registers_status_changed": null,
+        "float_registers_diff": [],
+        "float_csr_status_changed": null,
+        "float_csr_diff": null
+      }
+    ],
+    [
+      2,
+      {
+        "emulator_type1": "Spike",
+        "emulator_type2": "Rocket",
+        "int_registers_diff": [],
+        "core_csrs_diff": [
+          [
+            "misa",
+            9223372036856091055,
+            9223372036864479661
+          ],
+          [
+            "mideleg",
+            5188,
+            1092
+          ],
+          [
+            "mepc",
+            2147494436,
+            2147493722
+          ],
+          [
+            "mip",
+            128,
+            0
+          ],
+          [
+            "mcycle",
+            70185,
+            382795
+          ],
+          [
+            "minstret",
+            70186,
+            207090
+          ],
+          [
+            "marchid",
+            5,
+            1
+          ],
+          [
+            "mimpid",
+            0,
+            538447876
+          ]
+        ],
+        "float_registers_status_changed": null,
+        "float_registers_diff": [],
+        "float_csr_status_changed": null,
+        "float_csr_diff": null
+      }
+    ],
+    [
+      3,
+      {
+        "emulator_type1": "Spike",
+        "emulator_type2": "Rocket",
+        "int_registers_diff": [
+          [
+            28,
+            "t3",
+            0,
+            78
+          ]
+        ],
+        "core_csrs_diff": [
+          [
+            "misa",
+            9223372036856091055,
+            9223372036864479661
+          ],
+          [
+            "mideleg",
+            5188,
+            1092
+          ],
+          [
+            "mepc",
+            2147495140,
+            2147493722
+          ],
+          [
+            "mip",
+            128,
+            0
+          ],
+          [
+            "mcycle",
+            90203,
+            453095
+          ],
+          [
+            "minstret",
+            90204,
+            243194
+          ],
+          [
+            "marchid",
+            5,
+            1
+          ],
+          [
+            "mimpid",
+            0,
+            538447876
+          ]
+        ],
+        "float_registers_status_changed": null,
+        "float_registers_diff": [],
+        "float_csr_status_changed": null,
+        "float_csr_diff": null
+      }
+    ]
+  ],
+  "exception_dumps_diff": {
+    "sim1_emulator_type": "Spike",
+    "sim2_emulator_type": "Rocket",
+    "list1_only_exceptions": [
+      {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147494432,
+          "mtval": 2147481930,
+          "mie": 0,
+          "mip": 128,
+          "mtvec": 2147491840,
+          "mscratch": 2147500032,
+          "mhartid": 0
+        },
+        "position": 1664,
+        "inst_trace": {
+          "pc": 2147494432,
+          "disassembly": "sb a0,-1717(s11)",
+          "machine_code": "94ad85a3",
+          "original_instruction": "sb x10, -1717(x27)"
+        }
+      },
+      {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 5,
+          "mepc": 2147495136,
+          "mtval": 2147481930,
+          "mie": 0,
+          "mip": 128,
+          "mtvec": 2147491840,
+          "mscratch": 2147500032,
+          "mhartid": 0
+        },
+        "position": 2416,
+        "inst_trace": {
+          "pc": 2147495136,
+          "disassembly": "lbu t3,-1717(s11)",
+          "machine_code": "94bdce03",
+          "original_instruction": "lbu x28, -1717(x27)"
+        }
+      }
+    ],
+    "list2_only_exceptions": [],
+    "paired_exceptions_diffs": [
+      {
+        "exception1": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493706,
+            "mtval": 18446744073709549892,
+            "mie": 0,
+            "mip": 128,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 672,
+          "inst_trace": {
+            "pc": 2147493706,
+            "disassembly": "flw ft4,-1724(t4)",
+            "machine_code": "944ea207",
+            "original_instruction": "flw f4, -1724(x29)"
+          }
+        },
+        "exception2": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493706,
+            "mtval": 18446744073709549892,
+            "mie": 0,
+            "mip": 0,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 672,
+          "inst_trace": {
+            "pc": 2147493706,
+            "disassembly": "flw ft4,-1724(t4)",
+            "machine_code": "944ea207",
+            "original_instruction": "flw f4, -1724(x29)"
+          }
+        },
+        "csrs_differences": [
+          [
+            "mip",
+            128,
+            0
+          ]
+        ]
+      },
+      {
+        "exception1": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493710,
+            "mtval": 1632,
+            "mie": 0,
+            "mip": 128,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 752,
+          "inst_trace": {
+            "pc": 2147493710,
+            "disassembly": "ld t6,1632(a4)",
+            "machine_code": "66073f83",
+            "original_instruction": "ld x31, 1632(x14)"
+          }
+        },
+        "exception2": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493710,
+            "mtval": 1632,
+            "mie": 0,
+            "mip": 0,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 752,
+          "inst_trace": {
+            "pc": 2147493710,
+            "disassembly": "ld t6,1632(a4)",
+            "machine_code": "66073f83",
+            "original_instruction": "ld x31, 1632(x14)"
+          }
+        },
+        "csrs_differences": [
+          [
+            "mip",
+            128,
+            0
+          ]
+        ]
+      },
+      {
+        "exception1": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493714,
+            "mtval": 750,
+            "mie": 0,
+            "mip": 128,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 832,
+          "inst_trace": {
+            "pc": 2147493714,
+            "disassembly": "lb s6,750(s0)",
+            "machine_code": "2ee40b03",
+            "original_instruction": "lb x22, 750(x8)"
+          }
+        },
+        "exception2": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493714,
+            "mtval": 750,
+            "mie": 0,
+            "mip": 0,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 832,
+          "inst_trace": {
+            "pc": 2147493714,
+            "disassembly": "lb s6,750(s0)",
+            "machine_code": "2ee40b03",
+            "original_instruction": "lb x22, 750(x8)"
+          }
+        },
+        "csrs_differences": [
+          [
+            "mip",
+            128,
+            0
+          ]
+        ]
+      },
+      {
+        "exception1": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493718,
+            "mtval": 18446744073709550149,
+            "mie": 0,
+            "mip": 128,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 912,
+          "inst_trace": {
+            "pc": 2147493718,
+            "disassembly": "lbu s8,-1467(s10)",
+            "machine_code": "a45d4c03",
+            "original_instruction": "lbu x24, -1467(x26)"
+          }
+        },
+        "exception2": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 5,
+            "mepc": 2147493718,
+            "mtval": 18446744073709550149,
+            "mie": 0,
+            "mip": 0,
+            "mtvec": 2147491840,
+            "mscratch": 2147500032,
+            "mhartid": 0
+          },
+          "position": 912,
+          "inst_trace": {
+            "pc": 2147493718,
+            "disassembly": "lbu s8,-1467(s10)",
+            "machine_code": "a45d4c03",
+            "original_instruction": "lbu x24, -1467(x26)"
+          }
+        },
+        "csrs_differences": [
+          [
+            "mip",
+            128,
+            0
+          ]
+        ]
+      }
+    ],
+    "categorized_summary": [
+      {
+        "category": {
+          "FixedMipDifference": {
+            "sim1_value": 128,
+            "sim2_value": 0
+          }
+        },
+        "diffs_summary": [
+          "PC: 0x8000274A (flw ft4,-1724(t4)), CSR: mip, Sim1: 0x80, Sim2: 0x0",
+          "PC: 0x8000274E (ld t6,1632(a4)), CSR: mip, Sim1: 0x80, Sim2: 0x0",
+          "PC: 0x80002752 (lb s6,750(s0)), CSR: mip, Sim1: 0x80, Sim2: 0x0",
+          "PC: 0x80002756 (lbu s8,-1467(s10)), CSR: mip, Sim1: 0x80, Sim2: 0x0"
+        ],
+        "count": 4,
+        "pc_list": [
+          2147493706,
+          2147493710,
+          2147493714,
+          2147493718
+        ],
+        "pc_instruction_traces": [
+          {
+            "pc": 2147493706,
+            "disassembly": "flw ft4,-1724(t4)",
+            "machine_code": "944ea207",
+            "original_instruction": "flw f4, -1724(x29)"
+          },
+          {
+            "pc": 2147493710,
+            "disassembly": "ld t6,1632(a4)",
+            "machine_code": "66073f83",
+            "original_instruction": "ld x31, 1632(x14)"
+          },
+          {
+            "pc": 2147493714,
+            "disassembly": "lb s6,750(s0)",
+            "machine_code": "2ee40b03",
+            "original_instruction": "lb x22, 750(x8)"
+          },
+          {
+            "pc": 2147493718,
+            "disassembly": "lbu s8,-1467(s10)",
+            "machine_code": "a45d4c03",
+            "original_instruction": "lbu x24, -1467(x26)"
+          }
+        ]
+      },
+      {
+        "category": {
+          "OnlyInSimulator": {
+            "simulator": "Spike",
+            "mcause": 7
+          }
+        },
+        "diffs_summary": [
+          "PC: 0x80002A20 (sb a0,-1717(s11)), Mcause: 0x7"
+        ],
+        "count": 1,
+        "pc_list": [
+          2147494432
+        ],
+        "pc_instruction_traces": [
+          {
+            "pc": 2147494432,
+            "disassembly": "sb a0,-1717(s11)",
+            "machine_code": "94ad85a3",
+            "original_instruction": "sb x10, -1717(x27)"
+          }
+        ]
+      },
+      {
+        "category": {
+          "OnlyInSimulator": {
+            "simulator": "Spike",
+            "mcause": 5
+          }
+        },
+        "diffs_summary": [
+          "PC: 0x80002CE0 (lbu t3,-1717(s11)), Mcause: 0x5"
+        ],
+        "count": 1,
+        "pc_list": [
+          2147495136
+        ],
+        "pc_instruction_traces": [
+          {
+            "pc": 2147495136,
+            "disassembly": "lbu t3,-1717(s11)",
+            "machine_code": "94bdce03",
+            "original_instruction": "lbu x28, -1717(x27)"
+          }
+        ]
+      }
+    ]
+  }
+}
