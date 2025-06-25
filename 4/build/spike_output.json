@@ -1,0 +1,68 @@
+{
+  "emulator_type": "Spike",
+  "raw_data_length": 104,
+  "debug_items": [
+    {
+      "Exception": {
+        "dump": {
+          "csrs": {
+            "mstatus": 9223372079804479488,
+            "mcause": 2,
+            "mepc": 2147492930,
+            "mtval": 754998131,
+            "mie": 0,
+            "mip": 128,
+            "mtvec": 2147491840,
+            "mscratch": 0,
+            "mhartid": 0
+          },
+          "position": 0,
+          "inst_trace": {
+            "pc": 2147492930,
+            "disassembly": "csrrwi s6,0x2d0,0",
+            "machine_code": "2d005b73",
+            "original_instruction": "csrrwi s6,0x2d0,0"
+          }
+        },
+        "position": 0
+      }
+    },
+    {
+      "SingleGpr": {
+        "register_index": 19,
+        "register_value": 10190,
+        "position": 80
+      }
+    }
+  ],
+  "exception_dumps": [
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 2,
+        "mepc": 2147492930,
+        "mtval": 754998131,
+        "mie": 0,
+        "mip": 128,
+        "mtvec": 2147491840,
+        "mscratch": 0,
+        "mhartid": 0
+      },
+      "position": 0,
+      "inst_trace": {
+        "pc": 2147492930,
+        "disassembly": "csrrwi s6,0x2d0,0",
+        "machine_code": "2d005b73",
+        "original_instruction": "csrrwi s6,0x2d0,0"
+      }
+    }
+  ],
+  "single_register_dumps": [
+    {
+      "dump_type": "SingleGprDump",
+      "register_index": 19,
+      "register_value": 10190,
+      "position": 80
+    }
+  ]
+}

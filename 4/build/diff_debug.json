@@ -1,0 +1,16 @@
+{
+  "sim1_emulator_type": "Spike",
+  "sim2_emulator_type": "Rocket",
+  "exception_count_changed": null,
+  "single_register_count_changed": null,
+  "differing_exceptions": [],
+  "differing_single_registers": [
+    {
+      "register_index": 19,
+      "sim1_value": 10190,
+      "sim2_value": 33277,
+      "position_diff": null
+    }
+  ],
+  "debug_items_count_changed": null
+}

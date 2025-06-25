@@ -17,4 +17,3 @@ echo "c" | spike --isa=${ISA_STRING} -d --log-commits ./build/debug.elf > output
 
 echo "Running debug.elf with rocket..."
 ../emulators/rocket_emulator +verbose build/debug.elf > output/debug_1_rocket.txt 2>&1
-

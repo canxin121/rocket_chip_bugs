@@ -1,0 +1,53 @@
+{
+  "emulator_type": "Spike",
+  "raw_data_length": 80,
+  "output_items": [
+    {
+      "MagicMarker": {
+        "marker": 12840893026304,
+        "marker_type": "ExceptionCSR",
+        "position": 0
+      }
+    },
+    {
+      "ExceptionData": {
+        "csrs": {
+          "mstatus": 9223372079804479488,
+          "mcause": 7,
+          "mepc": 2147492938,
+          "mtval": 0,
+          "mie": 0,
+          "mip": 128,
+          "mtvec": 2147491840,
+          "mscratch": 0,
+          "mhartid": 0
+        },
+        "position": 0
+      }
+    }
+  ],
+  "register_dumps": [],
+  "exception_dumps": [
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 7,
+        "mepc": 2147492938,
+        "mtval": 0,
+        "mie": 0,
+        "mip": 128,
+        "mtvec": 2147491840,
+        "mscratch": 0,
+        "mhartid": 0
+      },
+      "position": 0,
+      "inst_trace": {
+        "pc": 2147492938,
+        "disassembly": "amoand.d.rl t3,sp,(a4)",
+        "machine_code": "62273e2f",
+        "original_instruction": "amoand.d.rl x28, x2, (x14)"
+      }
+    }
+  ],
+  "single_register_dumps": []
+}
