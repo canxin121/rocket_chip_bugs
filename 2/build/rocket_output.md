@@ -98,7 +98,7 @@
 | `x27` | ` s11` | `0x0000000000000000` | Saved register |
 | `x28` | `  t3` | `0x0000000000000000` | Temporary register |
 | `x29` | `  t4` | `0x0000000000000000` | Temporary register |
-| `x30` | `  t5` | `0x0000000000000004` | Temporary register |
+| `x30` | `  t5` | `0x0000000000000000` | Temporary register |
 | `x31` | `  t6` | `0x0000000000000004` | Temporary register |
 
 #### ⚙️ All Core CSR Registers
@@ -113,12 +113,12 @@
 | `mtvec` | `0x0000000080002000` | Machine trap vector base address |
 | `mcounteren` | `0x0000000000000000` | Machine counter enable |
 | `mscratch` | `0x0000000000000004` | Machine scratch register |
-| `mepc` | `0x000000008000246C` | Machine exception program counter |
+| `mepc` | `0x0000000080002468` | Machine exception program counter |
 | `mcause` | `0x0000000000000000` | Machine trap cause |
 | `mtval` | `0x0000000000000000` | Machine bad address or instruction |
 | `mip` | `0x0000000000000040` | Machine interrupt pending |
-| `mcycle` | `0x000000000002C046` | Machine cycle counter |
-| `minstret` | `0x0000000000018A74` | Machine instructions retired counter |
+| `mcycle` | `0x000000000002C178` | Machine cycle counter |
+| `minstret` | `0x0000000000018AC5` | Machine instructions retired counter |
 | `mvendorid` | `0x0000000000000000` | Vendor ID |
 | `marchid` | `0x0000000000000001` | Architecture ID |
 | `mimpid` | `0x0000000020181004` | Implementation ID |
@@ -163,7 +163,7 @@
 
 **Floating-Point Control and Status Register:** `fcsr = 0x0000000000000000`
 
-> **Statistics:** Non-zero integer registers: `5/31`
+> **Statistics:** Non-zero integer registers: `4/31`
 > Non-zero floating-point registers: `0/32`
 
 
@@ -205,7 +205,7 @@
 | `x27` | ` s11` | `0x0000000000000000` | Saved register |
 | `x28` | `  t3` | `0x0000000000000000` | Temporary register |
 | `x29` | `  t4` | `0x0000000000000000` | Temporary register |
-| `x30` | `  t5` | `0x0000000000000005` | Temporary register |
+| `x30` | `  t5` | `0x0000000000000000` | Temporary register |
 | `x31` | `  t6` | `0x0000000000000005` | Temporary register |
 
 #### ⚙️ All Core CSR Registers
@@ -220,12 +220,12 @@
 | `mtvec` | `0x0000000080002000` | Machine trap vector base address |
 | `mcounteren` | `0x0000000000000000` | Machine counter enable |
 | `mscratch` | `0x0000000000000005` | Machine scratch register |
-| `mepc` | `0x000000008000273E` | Machine exception program counter |
+| `mepc` | `0x0000000080002736` | Machine exception program counter |
 | `mcause` | `0x0000000000000000` | Machine trap cause |
 | `mtval` | `0x0000000000000000` | Machine bad address or instruction |
 | `mip` | `0x0000000000000040` | Machine interrupt pending |
-| `mcycle` | `0x000000000006920D` | Machine cycle counter |
-| `minstret` | `0x000000000003A392` | Machine instructions retired counter |
+| `mcycle` | `0x00000000000690F2` | Machine cycle counter |
+| `minstret` | `0x000000000003A3CC` | Machine instructions retired counter |
 | `mvendorid` | `0x0000000000000000` | Vendor ID |
 | `marchid` | `0x0000000000000001` | Architecture ID |
 | `mimpid` | `0x0000000020181004` | Implementation ID |
@@ -270,7 +270,7 @@
 
 **Floating-Point Control and Status Register:** `fcsr = 0x0000000000000000`
 
-> **Statistics:** Non-zero integer registers: `5/31`
+> **Statistics:** Non-zero integer registers: `4/31`
 > Non-zero floating-point registers: `0/32`
 
 
@@ -312,7 +312,7 @@
 | `x27` | ` s11` | `0x0000000000000000` | Saved register |
 | `x28` | `  t3` | `0x0000000000000000` | Temporary register |
 | `x29` | `  t4` | `0x0000000000000000` | Temporary register |
-| `x30` | `  t5` | `0x00000000FFFFFFE1` | Temporary register |
+| `x30` | `  t5` | `0x0000000000000000` | Temporary register |
 | `x31` | `  t6` | `0x00000000FFFFFFE1` | Temporary register |
 
 #### ⚙️ All Core CSR Registers
@@ -327,12 +327,12 @@
 | `mtvec` | `0x0000000080002000` | Machine trap vector base address |
 | `mcounteren` | `0x0000000000000000` | Machine counter enable |
 | `mscratch` | `0x00000000FFFFFFE1` | Machine scratch register |
-| `mepc` | `0x0000000080002A16` | Machine exception program counter |
+| `mepc` | `0x0000000080002A0A` | Machine exception program counter |
 | `mcause` | `0x0000000000000000` | Machine trap cause |
 | `mtval` | `0x0000000000000000` | Machine bad address or instruction |
 | `mip` | `0x0000000000000040` | Machine interrupt pending |
-| `mcycle` | `0x00000000000A63EB` | Machine cycle counter |
-| `minstret` | `0x000000000005BC5D` | Machine instructions retired counter |
+| `mcycle` | `0x00000000000A65F4` | Machine cycle counter |
+| `minstret` | `0x000000000005BDA3` | Machine instructions retired counter |
 | `mvendorid` | `0x0000000000000000` | Vendor ID |
 | `marchid` | `0x0000000000000001` | Architecture ID |
 | `mimpid` | `0x0000000020181004` | Implementation ID |
@@ -377,7 +377,7 @@
 
 **Floating-Point Control and Status Register:** `fcsr = 0x0000000000000000`
 
-> **Statistics:** Non-zero integer registers: `5/31`
+> **Statistics:** Non-zero integer registers: `4/31`
 > Non-zero floating-point registers: `0/32`
 
 
@@ -419,7 +419,7 @@
 | `x27` | ` s11` | `0x0000000000000000` | Saved register |
 | `x28` | `  t3` | `0x0000000000000000` | Temporary register |
 | `x29` | `  t4` | `0x0000000000000000` | Temporary register |
-| `x30` | `  t5` | `0x00000000FFFFFFEC` | Temporary register |
+| `x30` | `  t5` | `0x0000000000000000` | Temporary register |
 | `x31` | `  t6` | `0x00000000FFFFFFEC` | Temporary register |
 
 #### ⚙️ All Core CSR Registers
@@ -434,12 +434,12 @@
 | `mtvec` | `0x0000000080002000` | Machine trap vector base address |
 | `mcounteren` | `0x0000000000000000` | Machine counter enable |
 | `mscratch` | `0x00000000FFFFFFEC` | Machine scratch register |
-| `mepc` | `0x0000000080002CEE` | Machine exception program counter |
+| `mepc` | `0x0000000080002CDE` | Machine exception program counter |
 | `mcause` | `0x0000000000000000` | Machine trap cause |
 | `mtval` | `0x0000000000000000` | Machine bad address or instruction |
 | `mip` | `0x0000000000000040` | Machine interrupt pending |
-| `mcycle` | `0x00000000000E35E6` | Machine cycle counter |
-| `minstret` | `0x000000000007D549` | Machine instructions retired counter |
+| `mcycle` | `0x00000000000E3913` | Machine cycle counter |
+| `minstret` | `0x000000000007D729` | Machine instructions retired counter |
 | `mvendorid` | `0x0000000000000000` | Vendor ID |
 | `marchid` | `0x0000000000000001` | Architecture ID |
 | `mimpid` | `0x0000000020181004` | Implementation ID |
@@ -484,14 +484,14 @@
 
 **Floating-Point Control and Status Register:** `fcsr = 0x0000000000000000`
 
-> **Statistics:** Non-zero integer registers: `5/31`
+> **Statistics:** Non-zero integer registers: `4/31`
 > Non-zero floating-point registers: `0/32`
 
 ## 🚨 `Rocket` Exception Dump Details
 
 ### ⚡ Exception Dump #1 (Position: `0`)
 
-**Exception PC:** `0x0000000080002460`
+**Exception PC:** `0x000000008000245C`
 **Traced Instruction:** `sw t0,0(t6)`
 **Machine Code:** `005fa023`
 **Original Instruction:** `sw t0,0(t6)`
@@ -513,7 +513,7 @@
 
 ### ⚡ Exception Dump #2 (Position: `80`)
 
-**Exception PC:** `0x0000000080002464`
+**Exception PC:** `0x0000000080002460`
 **Traced Instruction:** `lw t0,0(t6)`
 **Machine Code:** `000fa283`
 **Original Instruction:** `lw t0,0(t6)`
@@ -535,7 +535,7 @@
 
 ### ⚡ Exception Dump #3 (Position: `160`)
 
-**Exception PC:** `0x0000000080002468`
+**Exception PC:** `0x0000000080002464`
 **Traced Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
 **Machine Code:** `269fa1af`
 **Original Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
@@ -557,7 +557,7 @@
 
 ### ⚡ Exception Dump #4 (Position: `912`)
 
-**Exception PC:** `0x0000000080002732`
+**Exception PC:** `0x000000008000272A`
 **Traced Instruction:** `sw t0,0(t6)`
 **Machine Code:** `005fa023`
 **Original Instruction:** `sw t0,0(t6)`
@@ -579,7 +579,7 @@
 
 ### ⚡ Exception Dump #5 (Position: `992`)
 
-**Exception PC:** `0x0000000080002736`
+**Exception PC:** `0x000000008000272E`
 **Traced Instruction:** `lw t0,0(t6)`
 **Machine Code:** `000fa283`
 **Original Instruction:** `lw t0,0(t6)`
@@ -601,7 +601,7 @@
 
 ### ⚡ Exception Dump #6 (Position: `1072`)
 
-**Exception PC:** `0x000000008000273A`
+**Exception PC:** `0x0000000080002732`
 **Traced Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
 **Machine Code:** `269fa1af`
 **Original Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
@@ -623,7 +623,7 @@
 
 ### ⚡ Exception Dump #7 (Position: `1824`)
 
-**Exception PC:** `0x0000000080002A0A`
+**Exception PC:** `0x00000000800029FE`
 **Traced Instruction:** `sw t0,0(t6)`
 **Machine Code:** `005fa023`
 **Original Instruction:** `sw t0,0(t6)`
@@ -645,7 +645,7 @@
 
 ### ⚡ Exception Dump #8 (Position: `1904`)
 
-**Exception PC:** `0x0000000080002A0E`
+**Exception PC:** `0x0000000080002A02`
 **Traced Instruction:** `lw t0,0(t6)`
 **Machine Code:** `000fa283`
 **Original Instruction:** `lw t0,0(t6)`
@@ -667,7 +667,7 @@
 
 ### ⚡ Exception Dump #9 (Position: `1984`)
 
-**Exception PC:** `0x0000000080002A12`
+**Exception PC:** `0x0000000080002A06`
 **Traced Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
 **Machine Code:** `269fa1af`
 **Original Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
@@ -689,7 +689,7 @@
 
 ### ⚡ Exception Dump #10 (Position: `2736`)
 
-**Exception PC:** `0x0000000080002CE2`
+**Exception PC:** `0x0000000080002CD2`
 **Traced Instruction:** `sw t0,0(t6)`
 **Machine Code:** `005fa023`
 **Original Instruction:** `sw t0,0(t6)`
@@ -711,7 +711,7 @@
 
 ### ⚡ Exception Dump #11 (Position: `2816`)
 
-**Exception PC:** `0x0000000080002CE6`
+**Exception PC:** `0x0000000080002CD6`
 **Traced Instruction:** `lw t0,0(t6)`
 **Machine Code:** `000fa283`
 **Original Instruction:** `lw t0,0(t6)`
@@ -733,7 +733,7 @@
 
 ### ⚡ Exception Dump #12 (Position: `2896`)
 
-**Exception PC:** `0x0000000080002CEA`
+**Exception PC:** `0x0000000080002CDA`
 **Traced Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
 **Machine Code:** `269fa1af`
 **Original Instruction:** `amoxor.w.aqrl gp,s1,(t6)`
@@ -773,4 +773,4 @@
 | 📊 Data Coverage Rate | `100.0%` (3648/3648 bytes) |
 
 ---
-*Generated at: 2025-06-24 17:46:29 UTC
+*Generated at: 2025-06-25 04:12:35 UTC

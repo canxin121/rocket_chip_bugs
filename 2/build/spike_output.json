@@ -14,7 +14,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 7,
-          "mepc": 2147492960,
+          "mepc": 2147492956,
           "mtval": 4,
           "mie": 0,
           "mip": 128,
@@ -37,7 +37,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 5,
-          "mepc": 2147492964,
+          "mepc": 2147492960,
           "mtval": 4,
           "mie": 0,
           "mip": 128,
@@ -60,7 +60,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 7,
-          "mepc": 2147492968,
+          "mepc": 2147492964,
           "mtval": 4,
           "mie": 0,
           "mip": 128,
@@ -112,7 +112,7 @@
           0,
           0,
           0,
-          4,
+          0,
           4,
           9223372079804473472,
           9223372036856091055,
@@ -122,12 +122,12 @@
           2147491840,
           0,
           4,
-          2147492972,
+          2147492968,
           0,
           0,
           128,
-          30330,
-          30331,
+          30328,
+          30329,
           0,
           5,
           0,
@@ -181,7 +181,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 6,
-          "mepc": 2147493682,
+          "mepc": 2147493674,
           "mtval": 5,
           "mie": 0,
           "mip": 128,
@@ -204,7 +204,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 4,
-          "mepc": 2147493686,
+          "mepc": 2147493678,
           "mtval": 5,
           "mie": 0,
           "mip": 128,
@@ -227,7 +227,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 6,
-          "mepc": 2147493690,
+          "mepc": 2147493682,
           "mtval": 5,
           "mie": 0,
           "mip": 128,
@@ -279,7 +279,7 @@
           0,
           0,
           0,
-          5,
+          0,
           5,
           9223372079804473472,
           9223372036856091055,
@@ -289,12 +289,12 @@
           2147491840,
           0,
           5,
-          2147493694,
+          2147493686,
           0,
           0,
           128,
-          70409,
-          70410,
+          70403,
+          70404,
           0,
           5,
           0,
@@ -348,7 +348,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 6,
-          "mepc": 2147494410,
+          "mepc": 2147494398,
           "mtval": 4294967265,
           "mie": 0,
           "mip": 128,
@@ -371,7 +371,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 4,
-          "mepc": 2147494414,
+          "mepc": 2147494402,
           "mtval": 4294967265,
           "mie": 0,
           "mip": 128,
@@ -394,7 +394,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 6,
-          "mepc": 2147494418,
+          "mepc": 2147494406,
           "mtval": 4294967265,
           "mie": 0,
           "mip": 128,
@@ -446,7 +446,7 @@
           0,
           0,
           0,
-          4294967265,
+          0,
           4294967265,
           9223372079804473472,
           9223372036856091055,
@@ -456,12 +456,12 @@
           2147491840,
           0,
           4294967265,
-          2147494422,
+          2147494410,
           0,
           0,
           128,
-          110490,
-          110491,
+          110480,
+          110481,
           0,
           5,
           0,
@@ -544,7 +544,7 @@
           0,
           0,
           0,
-          4294967276,
+          0,
           4294967276,
           9223372079804473472,
           9223372036856091055,
@@ -554,12 +554,12 @@
           2147491840,
           0,
           4294967276,
-          2147494422,
+          2147494410,
           0,
           0,
           128,
-          120487,
-          120488,
+          120476,
+          120477,
           0,
           5,
           0,
@@ -636,7 +636,7 @@
         0,
         0,
         0,
-        4,
+        0,
         4
       ],
       "core_csrs": {
@@ -648,12 +648,12 @@
         "mtvec": 2147491840,
         "mcounteren": 0,
         "mscratch": 4,
-        "mepc": 2147492972,
+        "mepc": 2147492968,
         "mcause": 0,
         "mtval": 0,
         "mip": 128,
-        "mcycle": 30330,
-        "minstret": 30331,
+        "mcycle": 30328,
+        "minstret": 30329,
         "mvendorid": 0,
         "marchid": 5,
         "mimpid": 0,
@@ -729,7 +729,7 @@
         0,
         0,
         0,
-        5,
+        0,
         5
       ],
       "core_csrs": {
@@ -741,12 +741,12 @@
         "mtvec": 2147491840,
         "mcounteren": 0,
         "mscratch": 5,
-        "mepc": 2147493694,
+        "mepc": 2147493686,
         "mcause": 0,
         "mtval": 0,
         "mip": 128,
-        "mcycle": 70409,
-        "minstret": 70410,
+        "mcycle": 70403,
+        "minstret": 70404,
         "mvendorid": 0,
         "marchid": 5,
         "mimpid": 0,
@@ -822,7 +822,7 @@
         0,
         0,
         0,
-        4294967265,
+        0,
         4294967265
       ],
       "core_csrs": {
@@ -834,12 +834,12 @@
         "mtvec": 2147491840,
         "mcounteren": 0,
         "mscratch": 4294967265,
-        "mepc": 2147494422,
+        "mepc": 2147494410,
         "mcause": 0,
         "mtval": 0,
         "mip": 128,
-        "mcycle": 110490,
-        "minstret": 110491,
+        "mcycle": 110480,
+        "minstret": 110481,
         "mvendorid": 0,
         "marchid": 5,
         "mimpid": 0,
@@ -915,7 +915,7 @@
         0,
         0,
         0,
-        4294967276,
+        0,
         4294967276
       ],
       "core_csrs": {
@@ -927,12 +927,12 @@
         "mtvec": 2147491840,
         "mcounteren": 0,
         "mscratch": 4294967276,
-        "mepc": 2147494422,
+        "mepc": 2147494410,
         "mcause": 0,
         "mtval": 0,
         "mip": 128,
-        "mcycle": 120487,
-        "minstret": 120488,
+        "mcycle": 120476,
+        "minstret": 120477,
         "mvendorid": 0,
         "marchid": 5,
         "mimpid": 0,
@@ -981,7 +981,7 @@
       "csrs": {
         "mstatus": 9223372079804479488,
         "mcause": 7,
-        "mepc": 2147492960,
+        "mepc": 2147492956,
         "mtval": 4,
         "mie": 0,
         "mip": 128,
@@ -991,7 +991,7 @@
       },
       "position": 0,
       "inst_trace": {
-        "pc": 2147492960,
+        "pc": 2147492956,
         "disassembly": "sw t0,0(t6)",
         "machine_code": "005fa023",
         "original_instruction": "sw t0,0(t6)"
@@ -1001,7 +1001,7 @@
       "csrs": {
         "mstatus": 9223372079804479488,
         "mcause": 5,
-        "mepc": 2147492964,
+        "mepc": 2147492960,
         "mtval": 4,
         "mie": 0,
         "mip": 128,
@@ -1011,7 +1011,7 @@
       },
       "position": 80,
       "inst_trace": {
-        "pc": 2147492964,
+        "pc": 2147492960,
         "disassembly": "lw t0,0(t6)",
         "machine_code": "000fa283",
         "original_instruction": "lw t0,0(t6)"
@@ -1021,7 +1021,7 @@
       "csrs": {
         "mstatus": 9223372079804479488,
         "mcause": 7,
-        "mepc": 2147492968,
+        "mepc": 2147492964,
         "mtval": 4,
         "mie": 0,
         "mip": 128,
@@ -1031,10 +1031,50 @@
       },
       "position": 160,
       "inst_trace": {
-        "pc": 2147492968,
+        "pc": 2147492964,
         "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
         "machine_code": "269fa1af",
         "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 6,
+        "mepc": 2147493674,
+        "mtval": 5,
+        "mie": 0,
+        "mip": 128,
+        "mtvec": 2147491840,
+        "mscratch": 5,
+        "mhartid": 0
+      },
+      "position": 912,
+      "inst_trace": {
+        "pc": 2147493674,
+        "disassembly": "sw t0,0(t6)",
+        "machine_code": "005fa023",
+        "original_instruction": "sw t0,0(t6)"
+      }
+    },
+    {
+      "csrs": {
+        "mstatus": 9223372079804479488,
+        "mcause": 4,
+        "mepc": 2147493678,
+        "mtval": 5,
+        "mie": 0,
+        "mip": 128,
+        "mtvec": 2147491840,
+        "mscratch": 5,
+        "mhartid": 0
+      },
+      "position": 992,
+      "inst_trace": {
+        "pc": 2147493678,
+        "disassembly": "lw t0,0(t6)",
+        "machine_code": "000fa283",
+        "original_instruction": "lw t0,0(t6)"
       }
     },
     {
@@ -1049,49 +1089,9 @@
         "mscratch": 5,
         "mhartid": 0
       },
-      "position": 912,
-      "inst_trace": {
-        "pc": 2147493682,
-        "disassembly": "sw t0,0(t6)",
-        "machine_code": "005fa023",
-        "original_instruction": "sw t0,0(t6)"
-      }
-    },
-    {
-      "csrs": {
-        "mstatus": 9223372079804479488,
-        "mcause": 4,
-        "mepc": 2147493686,
-        "mtval": 5,
-        "mie": 0,
-        "mip": 128,
-        "mtvec": 2147491840,
-        "mscratch": 5,
-        "mhartid": 0
-      },
-      "position": 992,
-      "inst_trace": {
-        "pc": 2147493686,
-        "disassembly": "lw t0,0(t6)",
-        "machine_code": "000fa283",
-        "original_instruction": "lw t0,0(t6)"
-      }
-    },
-    {
-      "csrs": {
-        "mstatus": 9223372079804479488,
-        "mcause": 6,
-        "mepc": 2147493690,
-        "mtval": 5,
-        "mie": 0,
-        "mip": 128,
-        "mtvec": 2147491840,
-        "mscratch": 5,
-        "mhartid": 0
-      },
       "position": 1072,
       "inst_trace": {
-        "pc": 2147493690,
+        "pc": 2147493682,
         "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
         "machine_code": "269fa1af",
         "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -1101,7 +1101,7 @@
       "csrs": {
         "mstatus": 9223372079804479488,
         "mcause": 6,
-        "mepc": 2147494410,
+        "mepc": 2147494398,
         "mtval": 4294967265,
         "mie": 0,
         "mip": 128,
@@ -1111,7 +1111,7 @@
       },
       "position": 1824,
       "inst_trace": {
-        "pc": 2147494410,
+        "pc": 2147494398,
         "disassembly": "sw t0,0(t6)",
         "machine_code": "005fa023",
         "original_instruction": "sw t0,0(t6)"
@@ -1121,7 +1121,7 @@
       "csrs": {
         "mstatus": 9223372079804479488,
         "mcause": 4,
-        "mepc": 2147494414,
+        "mepc": 2147494402,
         "mtval": 4294967265,
         "mie": 0,
         "mip": 128,
@@ -1131,7 +1131,7 @@
       },
       "position": 1904,
       "inst_trace": {
-        "pc": 2147494414,
+        "pc": 2147494402,
         "disassembly": "lw t0,0(t6)",
         "machine_code": "000fa283",
         "original_instruction": "lw t0,0(t6)"
@@ -1141,7 +1141,7 @@
       "csrs": {
         "mstatus": 9223372079804479488,
         "mcause": 6,
-        "mepc": 2147494418,
+        "mepc": 2147494406,
         "mtval": 4294967265,
         "mie": 0,
         "mip": 128,
@@ -1151,7 +1151,7 @@
       },
       "position": 1984,
       "inst_trace": {
-        "pc": 2147494418,
+        "pc": 2147494406,
         "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
         "machine_code": "269fa1af",
         "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"

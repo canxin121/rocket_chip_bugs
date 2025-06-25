@@ -31,8 +31,8 @@ Difference count: 7
 | misa | 0x80000000001411AF | 0x80000000009411AD |
 | mideleg | 0x0000000000001444 | 0x0000000000000444 |
 | mip | 0x0000000000000080 | 0x0000000000000040 |
-| mcycle | 0x000000000000767A | 0x000000000002C046 |
-| minstret | 0x000000000000767B | 0x0000000000018A74 |
+| mcycle | 0x0000000000007678 | 0x000000000002C178 |
+| minstret | 0x0000000000007679 | 0x0000000000018AC5 |
 | marchid | 0x0000000000000005 | 0x0000000000000001 |
 | mimpid | 0x0000000000000000 | 0x0000000020181004 |
 
@@ -53,8 +53,8 @@ Difference count: 7
 | misa | 0x80000000001411AF | 0x80000000009411AD |
 | mideleg | 0x0000000000001444 | 0x0000000000000444 |
 | mip | 0x0000000000000080 | 0x0000000000000040 |
-| mcycle | 0x0000000000011309 | 0x000000000006920D |
-| minstret | 0x000000000001130A | 0x000000000003A392 |
+| mcycle | 0x0000000000011303 | 0x00000000000690F2 |
+| minstret | 0x0000000000011304 | 0x000000000003A3CC |
 | marchid | 0x0000000000000005 | 0x0000000000000001 |
 | mimpid | 0x0000000000000000 | 0x0000000020181004 |
 
@@ -75,8 +75,8 @@ Difference count: 7
 | misa | 0x80000000001411AF | 0x80000000009411AD |
 | mideleg | 0x0000000000001444 | 0x0000000000000444 |
 | mip | 0x0000000000000080 | 0x0000000000000040 |
-| mcycle | 0x000000000001AF9A | 0x00000000000A63EB |
-| minstret | 0x000000000001AF9B | 0x000000000005BC5D |
+| mcycle | 0x000000000001AF90 | 0x00000000000A65F4 |
+| minstret | 0x000000000001AF91 | 0x000000000005BDA3 |
 | marchid | 0x0000000000000005 | 0x0000000000000001 |
 | mimpid | 0x0000000000000000 | 0x0000000020181004 |
 
@@ -104,10 +104,10 @@ Difference count: 8
 |-----|------|------|
 | misa | 0x80000000001411AF | 0x80000000009411AD |
 | mideleg | 0x0000000000001444 | 0x0000000000000444 |
-| mepc | 0x0000000080002A16 | 0x0000000080002CEE |
+| mepc | 0x0000000080002A0A | 0x0000000080002CDE |
 | mip | 0x0000000000000080 | 0x0000000000000040 |
-| mcycle | 0x000000000001D6A7 | 0x00000000000E35E6 |
-| minstret | 0x000000000001D6A8 | 0x000000000007D549 |
+| mcycle | 0x000000000001D69C | 0x00000000000E3913 |
+| minstret | 0x000000000001D69D | 0x000000000007D729 |
 | marchid | 0x0000000000000005 | 0x0000000000000001 |
 | mimpid | 0x0000000000000000 | 0x0000000020181004 |
 
@@ -139,21 +139,21 @@ Total: 3
 
 | # | MEPC | Disassembly | Original Assembly | MCAUSE | Exception Description | MTVAL | Position |
 |---|------|-------------|-------------------|--------|----------------------|-------|----------|
-| 1 | 0x0000000080002CE2 | sw t0,0(t6) | sw t0,0(t6) | 0x0000000000000007 | Store/AMO access fault | 0x00000000FFFFFFEC | 2736 |
-| 2 | 0x0000000080002CE6 | lw t0,0(t6) | lw t0,0(t6) | 0x0000000000000005 | Load access fault | 0x00000000FFFFFFEC | 2816 |
-| 3 | 0x0000000080002CEA | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) | 0x0000000000000007 | Store/AMO access fault | 0x00000000FFFFFFEC | 2896 |
+| 1 | 0x0000000080002CD2 | sw t0,0(t6) | sw t0,0(t6) | 0x0000000000000007 | Store/AMO access fault | 0x00000000FFFFFFEC | 2736 |
+| 2 | 0x0000000080002CD6 | lw t0,0(t6) | lw t0,0(t6) | 0x0000000000000005 | Load access fault | 0x00000000FFFFFFEC | 2816 |
+| 3 | 0x0000000080002CDA | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) | 0x0000000000000007 | Store/AMO access fault | 0x00000000FFFFFFEC | 2896 |
 
 ## Matched Exception Difference Details
 
 Pairs with differences: 9 / 9 pairs
 
-### Pair 1 - MEPC: 0x0000000080002460
+### Pair 1 - MEPC: 0x000000008000245C
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002460 | sw t0,0(t6) | sw t0,0(t6) |
+| 0x000000008000245C | sw t0,0(t6) | sw t0,0(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -167,13 +167,13 @@ Pairs with differences: 9 / 9 pairs
 |-----------|------------|------------|----------------------|
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 2 - MEPC: 0x0000000080002464
+### Pair 2 - MEPC: 0x0000000080002460
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002464 | lw t0,0(t6) | lw t0,0(t6) |
+| 0x0000000080002460 | lw t0,0(t6) | lw t0,0(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -187,13 +187,13 @@ Pairs with differences: 9 / 9 pairs
 |-----------|------------|------------|----------------------|
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 3 - MEPC: 0x0000000080002468
+### Pair 3 - MEPC: 0x0000000080002464
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002468 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 0x0000000080002464 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -207,13 +207,13 @@ Pairs with differences: 9 / 9 pairs
 |-----------|------------|------------|----------------------|
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 4 - MEPC: 0x0000000080002732
+### Pair 4 - MEPC: 0x000000008000272A
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002732 | sw t0,0(t6) | sw t0,0(t6) |
+| 0x000000008000272A | sw t0,0(t6) | sw t0,0(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -228,13 +228,13 @@ Pairs with differences: 9 / 9 pairs
 | mcause | 0x0000000000000006 | 0x0000000000000007 | Store/AMO address misaligned vs Store/AMO access fault |
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 5 - MEPC: 0x0000000080002736
+### Pair 5 - MEPC: 0x000000008000272E
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002736 | lw t0,0(t6) | lw t0,0(t6) |
+| 0x000000008000272E | lw t0,0(t6) | lw t0,0(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -249,13 +249,13 @@ Pairs with differences: 9 / 9 pairs
 | mcause | 0x0000000000000004 | 0x0000000000000005 | Load address misaligned vs Load access fault |
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 6 - MEPC: 0x000000008000273A
+### Pair 6 - MEPC: 0x0000000080002732
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x000000008000273A | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 0x0000000080002732 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -270,13 +270,13 @@ Pairs with differences: 9 / 9 pairs
 | mcause | 0x0000000000000006 | 0x0000000000000007 | Store/AMO address misaligned vs Store/AMO access fault |
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 7 - MEPC: 0x0000000080002A0A
+### Pair 7 - MEPC: 0x00000000800029FE
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002A0A | sw t0,0(t6) | sw t0,0(t6) |
+| 0x00000000800029FE | sw t0,0(t6) | sw t0,0(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -291,13 +291,13 @@ Pairs with differences: 9 / 9 pairs
 | mcause | 0x0000000000000006 | 0x0000000000000007 | Store/AMO address misaligned vs Store/AMO access fault |
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 8 - MEPC: 0x0000000080002A0E
+### Pair 8 - MEPC: 0x0000000080002A02
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002A0E | lw t0,0(t6) | lw t0,0(t6) |
+| 0x0000000080002A02 | lw t0,0(t6) | lw t0,0(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -312,13 +312,13 @@ Pairs with differences: 9 / 9 pairs
 | mcause | 0x0000000000000004 | 0x0000000000000005 | Load address misaligned vs Load access fault |
 | mip | 0x0000000000000080 | 0x0000000000000040 | Values differ |
 
-### Pair 9 - MEPC: 0x0000000080002A12
+### Pair 9 - MEPC: 0x0000000080002A06
 
 #### Triggering Instruction
 
 | PC Address | Disassembly | Original Assembly |
 |------------|-------------|-------------------|
-| 0x0000000080002A12 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 0x0000000080002A06 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
 
 | Item | Spike | Rocket |
 |------|------------|------------|
@@ -347,15 +347,15 @@ Affected PCs: 9 addresses
 
 | # | PC Address | Disassembly | Original Assembly |
 |---|------------|-------------|-------------------|
-| 1 | 0x0000000080002460 | sw t0,0(t6) | sw t0,0(t6) |
-| 2 | 0x0000000080002464 | lw t0,0(t6) | lw t0,0(t6) |
-| 3 | 0x0000000080002468 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
-| 4 | 0x0000000080002732 | sw t0,0(t6) | sw t0,0(t6) |
-| 5 | 0x0000000080002736 | lw t0,0(t6) | lw t0,0(t6) |
-| 6 | 0x000000008000273A | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
-| 7 | 0x0000000080002A0A | sw t0,0(t6) | sw t0,0(t6) |
-| 8 | 0x0000000080002A0E | lw t0,0(t6) | lw t0,0(t6) |
-| 9 | 0x0000000080002A12 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 1 | 0x000000008000245C | sw t0,0(t6) | sw t0,0(t6) |
+| 2 | 0x0000000080002460 | lw t0,0(t6) | lw t0,0(t6) |
+| 3 | 0x0000000080002464 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 4 | 0x000000008000272A | sw t0,0(t6) | sw t0,0(t6) |
+| 5 | 0x000000008000272E | lw t0,0(t6) | lw t0,0(t6) |
+| 6 | 0x0000000080002732 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 7 | 0x00000000800029FE | sw t0,0(t6) | sw t0,0(t6) |
+| 8 | 0x0000000080002A02 | lw t0,0(t6) | lw t0,0(t6) |
+| 9 | 0x0000000080002A06 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
 
 #### Description
 
@@ -373,10 +373,10 @@ Affected PCs: 4 addresses
 
 | # | PC Address | Disassembly | Original Assembly |
 |---|------------|-------------|-------------------|
-| 1 | 0x0000000080002732 | sw t0,0(t6) | sw t0,0(t6) |
-| 2 | 0x000000008000273A | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
-| 3 | 0x0000000080002A0A | sw t0,0(t6) | sw t0,0(t6) |
-| 4 | 0x0000000080002A12 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 1 | 0x000000008000272A | sw t0,0(t6) | sw t0,0(t6) |
+| 2 | 0x0000000080002732 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 3 | 0x00000000800029FE | sw t0,0(t6) | sw t0,0(t6) |
+| 4 | 0x0000000080002A06 | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
 
 #### Description
 
@@ -394,8 +394,8 @@ Affected PCs: 2 addresses
 
 | # | PC Address | Disassembly | Original Assembly |
 |---|------------|-------------|-------------------|
-| 1 | 0x0000000080002CE2 | sw t0,0(t6) | sw t0,0(t6) |
-| 2 | 0x0000000080002CEA | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
+| 1 | 0x0000000080002CD2 | sw t0,0(t6) | sw t0,0(t6) |
+| 2 | 0x0000000080002CDA | amoxor.w.aqrl gp,s1,(t6) | amoxor.w.aqrl gp,s1,(t6) |
 
 #### Description
 
@@ -413,8 +413,8 @@ Affected PCs: 2 addresses
 
 | # | PC Address | Disassembly | Original Assembly |
 |---|------------|-------------|-------------------|
-| 1 | 0x0000000080002736 | lw t0,0(t6) | lw t0,0(t6) |
-| 2 | 0x0000000080002A0E | lw t0,0(t6) | lw t0,0(t6) |
+| 1 | 0x000000008000272E | lw t0,0(t6) | lw t0,0(t6) |
+| 2 | 0x0000000080002A02 | lw t0,0(t6) | lw t0,0(t6) |
 
 #### Description
 
@@ -432,7 +432,7 @@ Affected PCs: 1 addresses
 
 | # | PC Address | Disassembly | Original Assembly |
 |---|------------|-------------|-------------------|
-| 1 | 0x0000000080002CE6 | lw t0,0(t6) | lw t0,0(t6) |
+| 1 | 0x0000000080002CD6 | lw t0,0(t6) | lw t0,0(t6) |
 
 #### Description
 
@@ -440,6 +440,6 @@ Description: Exception only triggered in Rocket, the other simulator continues e
 
 
 ---
-Exception diff report generated at: 2025-06-24 17:46:29 UTC
+Exception diff report generated at: 2025-06-25 04:12:35 UTC
 
 

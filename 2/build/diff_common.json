@@ -28,13 +28,13 @@
           ],
           [
             "mcycle",
-            30330,
-            180294
+            30328,
+            180600
           ],
           [
             "minstret",
-            30331,
-            100980
+            30329,
+            101061
           ],
           [
             "marchid",
@@ -77,13 +77,13 @@
           ],
           [
             "mcycle",
-            70409,
-            430605
+            70403,
+            430322
           ],
           [
             "minstret",
-            70410,
-            238482
+            70404,
+            238540
           ],
           [
             "marchid",
@@ -126,13 +126,13 @@
           ],
           [
             "mcycle",
-            110490,
-            680939
+            110480,
+            681460
           ],
           [
             "minstret",
-            110491,
-            375901
+            110481,
+            376227
           ],
           [
             "marchid",
@@ -177,8 +177,8 @@
           ],
           [
             "mepc",
-            2147494422,
-            2147495150
+            2147494410,
+            2147495134
           ],
           [
             "mip",
@@ -187,13 +187,13 @@
           ],
           [
             "mcycle",
-            120487,
-            931302
+            120476,
+            932115
           ],
           [
             "minstret",
-            120488,
-            513353
+            120477,
+            513833
           ],
           [
             "marchid",
@@ -222,7 +222,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 7,
-          "mepc": 2147495138,
+          "mepc": 2147495122,
           "mtval": 4294967276,
           "mie": 0,
           "mip": 64,
@@ -232,7 +232,7 @@
         },
         "position": 2736,
         "inst_trace": {
-          "pc": 2147495138,
+          "pc": 2147495122,
           "disassembly": "sw t0,0(t6)",
           "machine_code": "005fa023",
           "original_instruction": "sw t0,0(t6)"
@@ -242,7 +242,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 5,
-          "mepc": 2147495142,
+          "mepc": 2147495126,
           "mtval": 4294967276,
           "mie": 0,
           "mip": 64,
@@ -252,7 +252,7 @@
         },
         "position": 2816,
         "inst_trace": {
-          "pc": 2147495142,
+          "pc": 2147495126,
           "disassembly": "lw t0,0(t6)",
           "machine_code": "000fa283",
           "original_instruction": "lw t0,0(t6)"
@@ -262,7 +262,7 @@
         "csrs": {
           "mstatus": 9223372079804479488,
           "mcause": 7,
-          "mepc": 2147495146,
+          "mepc": 2147495130,
           "mtval": 4294967276,
           "mie": 0,
           "mip": 64,
@@ -272,7 +272,7 @@
         },
         "position": 2896,
         "inst_trace": {
-          "pc": 2147495146,
+          "pc": 2147495130,
           "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
           "machine_code": "269fa1af",
           "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -285,7 +285,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147492960,
+            "mepc": 2147492956,
             "mtval": 4,
             "mie": 0,
             "mip": 128,
@@ -295,7 +295,7 @@
           },
           "position": 0,
           "inst_trace": {
-            "pc": 2147492960,
+            "pc": 2147492956,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
@@ -305,7 +305,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147492960,
+            "mepc": 2147492956,
             "mtval": 4,
             "mie": 0,
             "mip": 64,
@@ -315,7 +315,7 @@
           },
           "position": 0,
           "inst_trace": {
-            "pc": 2147492960,
+            "pc": 2147492956,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
@@ -334,7 +334,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 5,
-            "mepc": 2147492964,
+            "mepc": 2147492960,
             "mtval": 4,
             "mie": 0,
             "mip": 128,
@@ -344,7 +344,7 @@
           },
           "position": 80,
           "inst_trace": {
-            "pc": 2147492964,
+            "pc": 2147492960,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
@@ -354,7 +354,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 5,
-            "mepc": 2147492964,
+            "mepc": 2147492960,
             "mtval": 4,
             "mie": 0,
             "mip": 64,
@@ -364,7 +364,7 @@
           },
           "position": 80,
           "inst_trace": {
-            "pc": 2147492964,
+            "pc": 2147492960,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
@@ -383,7 +383,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147492968,
+            "mepc": 2147492964,
             "mtval": 4,
             "mie": 0,
             "mip": 128,
@@ -393,7 +393,7 @@
           },
           "position": 160,
           "inst_trace": {
-            "pc": 2147492968,
+            "pc": 2147492964,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -403,7 +403,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147492968,
+            "mepc": 2147492964,
             "mtval": 4,
             "mie": 0,
             "mip": 64,
@@ -413,7 +413,7 @@
           },
           "position": 160,
           "inst_trace": {
-            "pc": 2147492968,
+            "pc": 2147492964,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -432,7 +432,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 6,
-            "mepc": 2147493682,
+            "mepc": 2147493674,
             "mtval": 5,
             "mie": 0,
             "mip": 128,
@@ -442,7 +442,7 @@
           },
           "position": 912,
           "inst_trace": {
-            "pc": 2147493682,
+            "pc": 2147493674,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
@@ -452,7 +452,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147493682,
+            "mepc": 2147493674,
             "mtval": 5,
             "mie": 0,
             "mip": 64,
@@ -462,7 +462,7 @@
           },
           "position": 912,
           "inst_trace": {
-            "pc": 2147493682,
+            "pc": 2147493674,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
@@ -486,7 +486,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 4,
-            "mepc": 2147493686,
+            "mepc": 2147493678,
             "mtval": 5,
             "mie": 0,
             "mip": 128,
@@ -496,7 +496,7 @@
           },
           "position": 992,
           "inst_trace": {
-            "pc": 2147493686,
+            "pc": 2147493678,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
@@ -506,7 +506,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 5,
-            "mepc": 2147493686,
+            "mepc": 2147493678,
             "mtval": 5,
             "mie": 0,
             "mip": 64,
@@ -516,7 +516,7 @@
           },
           "position": 992,
           "inst_trace": {
-            "pc": 2147493686,
+            "pc": 2147493678,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
@@ -540,7 +540,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 6,
-            "mepc": 2147493690,
+            "mepc": 2147493682,
             "mtval": 5,
             "mie": 0,
             "mip": 128,
@@ -550,7 +550,7 @@
           },
           "position": 1072,
           "inst_trace": {
-            "pc": 2147493690,
+            "pc": 2147493682,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -560,7 +560,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147493690,
+            "mepc": 2147493682,
             "mtval": 5,
             "mie": 0,
             "mip": 64,
@@ -570,7 +570,7 @@
           },
           "position": 1072,
           "inst_trace": {
-            "pc": 2147493690,
+            "pc": 2147493682,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -594,7 +594,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 6,
-            "mepc": 2147494410,
+            "mepc": 2147494398,
             "mtval": 4294967265,
             "mie": 0,
             "mip": 128,
@@ -604,7 +604,7 @@
           },
           "position": 1824,
           "inst_trace": {
-            "pc": 2147494410,
+            "pc": 2147494398,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
@@ -614,7 +614,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147494410,
+            "mepc": 2147494398,
             "mtval": 4294967265,
             "mie": 0,
             "mip": 64,
@@ -624,7 +624,7 @@
           },
           "position": 1824,
           "inst_trace": {
-            "pc": 2147494410,
+            "pc": 2147494398,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
@@ -648,7 +648,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 4,
-            "mepc": 2147494414,
+            "mepc": 2147494402,
             "mtval": 4294967265,
             "mie": 0,
             "mip": 128,
@@ -658,7 +658,7 @@
           },
           "position": 1904,
           "inst_trace": {
-            "pc": 2147494414,
+            "pc": 2147494402,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
@@ -668,7 +668,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 5,
-            "mepc": 2147494414,
+            "mepc": 2147494402,
             "mtval": 4294967265,
             "mie": 0,
             "mip": 64,
@@ -678,7 +678,7 @@
           },
           "position": 1904,
           "inst_trace": {
-            "pc": 2147494414,
+            "pc": 2147494402,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
@@ -702,7 +702,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 6,
-            "mepc": 2147494418,
+            "mepc": 2147494406,
             "mtval": 4294967265,
             "mie": 0,
             "mip": 128,
@@ -712,7 +712,7 @@
           },
           "position": 1984,
           "inst_trace": {
-            "pc": 2147494418,
+            "pc": 2147494406,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -722,7 +722,7 @@
           "csrs": {
             "mstatus": 9223372079804479488,
             "mcause": 7,
-            "mepc": 2147494418,
+            "mepc": 2147494406,
             "mtval": 4294967265,
             "mie": 0,
             "mip": 64,
@@ -732,7 +732,7 @@
           },
           "position": 1984,
           "inst_trace": {
-            "pc": 2147494418,
+            "pc": 2147494406,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -761,79 +761,79 @@
           }
         },
         "diffs_summary": [
-          "PC: 0x80002460 (sw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x80002464 (lw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x80002468 (amoxor.w.aqrl gp,s1,(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x80002732 (sw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x80002736 (lw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x8000273A (amoxor.w.aqrl gp,s1,(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x80002A0A (sw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x80002A0E (lw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
-          "PC: 0x80002A12 (amoxor.w.aqrl gp,s1,(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40"
+          "PC: 0x8000245C (sw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x80002460 (lw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x80002464 (amoxor.w.aqrl gp,s1,(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x8000272A (sw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x8000272E (lw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x80002732 (amoxor.w.aqrl gp,s1,(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x800029FE (sw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x80002A02 (lw t0,0(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40",
+          "PC: 0x80002A06 (amoxor.w.aqrl gp,s1,(t6)), CSR: mip, Sim1: 0x80, Sim2: 0x40"
         ],
         "count": 9,
         "pc_list": [
+          2147492956,
           2147492960,
           2147492964,
-          2147492968,
+          2147493674,
+          2147493678,
           2147493682,
-          2147493686,
-          2147493690,
-          2147494410,
-          2147494414,
-          2147494418
+          2147494398,
+          2147494402,
+          2147494406
         ],
         "pc_instruction_traces": [
           {
-            "pc": 2147492960,
+            "pc": 2147492956,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
+          },
+          {
+            "pc": 2147492960,
+            "disassembly": "lw t0,0(t6)",
+            "machine_code": "000fa283",
+            "original_instruction": "lw t0,0(t6)"
           },
           {
             "pc": 2147492964,
-            "disassembly": "lw t0,0(t6)",
-            "machine_code": "000fa283",
-            "original_instruction": "lw t0,0(t6)"
-          },
-          {
-            "pc": 2147492968,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
+          },
+          {
+            "pc": 2147493674,
+            "disassembly": "sw t0,0(t6)",
+            "machine_code": "005fa023",
+            "original_instruction": "sw t0,0(t6)"
+          },
+          {
+            "pc": 2147493678,
+            "disassembly": "lw t0,0(t6)",
+            "machine_code": "000fa283",
+            "original_instruction": "lw t0,0(t6)"
           },
           {
             "pc": 2147493682,
-            "disassembly": "sw t0,0(t6)",
-            "machine_code": "005fa023",
-            "original_instruction": "sw t0,0(t6)"
-          },
-          {
-            "pc": 2147493686,
-            "disassembly": "lw t0,0(t6)",
-            "machine_code": "000fa283",
-            "original_instruction": "lw t0,0(t6)"
-          },
-          {
-            "pc": 2147493690,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
           },
           {
-            "pc": 2147494410,
+            "pc": 2147494398,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
           },
           {
-            "pc": 2147494414,
+            "pc": 2147494402,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
           },
           {
-            "pc": 2147494418,
+            "pc": 2147494406,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -848,39 +848,39 @@
           }
         },
         "diffs_summary": [
-          "PC: 0x80002732 (sw t0,0(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7",
-          "PC: 0x8000273A (amoxor.w.aqrl gp,s1,(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7",
-          "PC: 0x80002A0A (sw t0,0(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7",
-          "PC: 0x80002A12 (amoxor.w.aqrl gp,s1,(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7"
+          "PC: 0x8000272A (sw t0,0(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7",
+          "PC: 0x80002732 (amoxor.w.aqrl gp,s1,(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7",
+          "PC: 0x800029FE (sw t0,0(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7",
+          "PC: 0x80002A06 (amoxor.w.aqrl gp,s1,(t6)), CSR: mcause, Sim1: 0x6, Sim2: 0x7"
         ],
         "count": 4,
         "pc_list": [
+          2147493674,
           2147493682,
-          2147493690,
-          2147494410,
-          2147494418
+          2147494398,
+          2147494406
         ],
         "pc_instruction_traces": [
           {
-            "pc": 2147493682,
+            "pc": 2147493674,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
           },
           {
-            "pc": 2147493690,
+            "pc": 2147493682,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
           },
           {
-            "pc": 2147494410,
+            "pc": 2147494398,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
           },
           {
-            "pc": 2147494418,
+            "pc": 2147494406,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -895,23 +895,23 @@
           }
         },
         "diffs_summary": [
-          "PC: 0x80002CE2 (sw t0,0(t6)), Mcause: 0x7",
-          "PC: 0x80002CEA (amoxor.w.aqrl gp,s1,(t6)), Mcause: 0x7"
+          "PC: 0x80002CD2 (sw t0,0(t6)), Mcause: 0x7",
+          "PC: 0x80002CDA (amoxor.w.aqrl gp,s1,(t6)), Mcause: 0x7"
         ],
         "count": 2,
         "pc_list": [
-          2147495138,
-          2147495146
+          2147495122,
+          2147495130
         ],
         "pc_instruction_traces": [
           {
-            "pc": 2147495138,
+            "pc": 2147495122,
             "disassembly": "sw t0,0(t6)",
             "machine_code": "005fa023",
             "original_instruction": "sw t0,0(t6)"
           },
           {
-            "pc": 2147495146,
+            "pc": 2147495130,
             "disassembly": "amoxor.w.aqrl gp,s1,(t6)",
             "machine_code": "269fa1af",
             "original_instruction": "amoxor.w.aqrl gp,s1,(t6)"
@@ -926,23 +926,23 @@
           }
         },
         "diffs_summary": [
-          "PC: 0x80002736 (lw t0,0(t6)), CSR: mcause, Sim1: 0x4, Sim2: 0x5",
-          "PC: 0x80002A0E (lw t0,0(t6)), CSR: mcause, Sim1: 0x4, Sim2: 0x5"
+          "PC: 0x8000272E (lw t0,0(t6)), CSR: mcause, Sim1: 0x4, Sim2: 0x5",
+          "PC: 0x80002A02 (lw t0,0(t6)), CSR: mcause, Sim1: 0x4, Sim2: 0x5"
         ],
         "count": 2,
         "pc_list": [
-          2147493686,
-          2147494414
+          2147493678,
+          2147494402
         ],
         "pc_instruction_traces": [
           {
-            "pc": 2147493686,
+            "pc": 2147493678,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
           },
           {
-            "pc": 2147494414,
+            "pc": 2147494402,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"
@@ -957,15 +957,15 @@
           }
         },
         "diffs_summary": [
-          "PC: 0x80002CE6 (lw t0,0(t6)), Mcause: 0x5"
+          "PC: 0x80002CD6 (lw t0,0(t6)), Mcause: 0x5"
         ],
         "count": 1,
         "pc_list": [
-          2147495142
+          2147495126
         ],
         "pc_instruction_traces": [
           {
-            "pc": 2147495142,
+            "pc": 2147495126,
             "disassembly": "lw t0,0(t6)",
             "machine_code": "000fa283",
             "original_instruction": "lw t0,0(t6)"

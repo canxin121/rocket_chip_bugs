@@ -12,20 +12,30 @@
 .macro SAVE_T_REGS save_area_label
     csrw mscratch, t6
     la t6, \save_area_label
-    sd t0, 0(t6); sd t1, 8(t6); sd t2, 16(t6)
-    sd t3, 24(t6); sd t4, 32(t6); sd t5, 40(t6)
+
+    sd t0, 0(t6)
+    sd t1, 8(t6)
+    sd t2, 16(t6)
+    sd t3, 24(t6)
+    sd t4, 32(t6)
+    sd t5, 40(t6)
+
     csrr t5, mscratch
     sd t5, 48(t6)
+
+    ld t5, 40(t6)
     csrr t6, mscratch
 .endm
 
 .macro RESTORE_T_REGS save_area_label
-    csrw mscratch, t6
     la t6, \save_area_label
-    ld t0, 0(t6); ld t1, 8(t6); ld t2, 16(t6)
-    ld t3, 24(t6); ld t4, 32(t6); ld t5, 40(t6)
+    ld t0, 0(t6)
+    ld t1, 8(t6)
+    ld t2, 16(t6)
+    ld t3, 24(t6)
+    ld t4, 32(t6)
+    ld t5, 40(t6)
     ld t6, 48(t6)
-    csrr t6, mscratch
 .endm
 
 # ----------------------------------------------------------------------------
@@ -354,7 +364,7 @@ infinite_exit_loop_\@: j infinite_exit_loop_\@
 
     # Step 4: Vector extension (V)
     # ---------------------------------
-# 383 "./debug.S"
+# 393 "./debug.S"
     # Step 5: Hypervisor extension (H)
     # ---------------------------------
     csrwi hstatus, 0; csrwi hedeleg, 0; csrwi hideleg, 0
